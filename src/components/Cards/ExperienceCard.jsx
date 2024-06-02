@@ -25,8 +25,7 @@ const Description = styled.div`
 `;
 
 const Span = styled.span`
-    overflow: hidden;
-    display: -webkit-box;
+    overflow: visible;
     max-width: 100%;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
@@ -58,12 +57,6 @@ const Card = styled.div`
     &:hover ${Document} {
         display: flex;
     }
-
-    &:hover ${Span} {
-        overflow: visible;
-        -webkit-line-clamp: unset;
-    }
-
     border: 0.1px solid #306ee8;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
 `;

@@ -2,9 +2,9 @@ export const Bio = {
     name: "Harshad Madhbhave",
     roles: [
         "Full Stack Developer",
-        "Competitive Coder",
+        "DSA Practitioner",
         "Web Designer",
-        "CSE Scholar",
+        "AIDS Scholar",
     ],
     description:
         "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -14,7 +14,6 @@ export const Bio = {
     twitter: "https://x.com/harsh_05x",
     insta: "https://www.instagram.com/harshu_05x/",
     facebook: "https://www.facebook.com/rishav.chanda.165/",
-    // Add your other socials here 
 };
 
 export const skills = [
